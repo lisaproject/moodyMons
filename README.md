@@ -39,7 +39,7 @@ QRCODE：
 ![](https://i.imgur.com/vhx3UAk.png)  
 
 ### 登入與登出  
-登入：按下「sign in with google」以 Google 帳戶來登入，進入 moodyMons。  
+登入：按下「sign in with google」以 Google 帳戶來登入，進入 ***moodyMons***。  
   
  ![](https://i.imgur.com/WIAOxAn.png)  
 
