@@ -99,4 +99,4 @@ QRCODE：
 
 ## 開始開發  
 
-clone 這份專案，開啟 Android Studio 執行專案。  
+clone [這份專案](https://github.com/lisaproject/moodyMons.git)，開啟 [Android Studio](https://developer.android.com/studio) 執行專案。 
