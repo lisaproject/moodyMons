@@ -1,4 +1,4 @@
-# ***moodyMons 情緒日記－AI語音情緒辨識APP***  
+# ***moodyMons 情緒日記－AI 語音情緒辨識 APP***  
 
 本專案是一款專為想要理解自己心情波動的人所設計之語音情緒辨識 APP。  
   ![](https://i.imgur.com/r1x9xqa.png)  
