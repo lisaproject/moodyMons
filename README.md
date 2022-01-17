@@ -73,8 +73,8 @@ QRCODE：
 ![](https://i.imgur.com/3wnfdiU.png)
 
 ## 專案開發流程  
-本專案以 NNIME 語料庫為主軸，將音訊轉換成梅爾頻譜訓練出中文語音情緒辨識模型，把模型經由 TensorFlow Lite 轉換，應用於以使用者為中心開發的 ***moodyMons*** ， 讓模型在手機上運行，同時運用 Firebase 雲端儲存模型的辨識結果、使用者回饋與日記內容以評估模型。  
-***moodyMons***  使用 single-Activity 架構與 Android Jetpack 來開發穩健且容易維護的應用程式，藉由邊緣運算讓音訊不需上傳至雲端即可在裝置上辨識出情緒，是即時且保有隱私的語音情緒辨識應用。  
+本專案以 [NNIME 語料庫](https://nnime.ee.nthu.edu.tw/) 為主軸，將音訊轉換成梅爾頻譜訓練出中文語音情緒辨識模型，把模型經由 [TensorFlow Lite](https://www.tensorflow.org/lite?hl=zh-tw) 轉換，應用於以使用者為中心開發的 ***moodyMons*** ， 讓模型在手機上運行，同時運用 [Firebase] 雲端儲存模型的辨識結果、使用者回饋與日記內容以評估模型。  
+***moodyMons***  使用 [single-Activity](https://youtu.be/2k8x8V77CrU) 架構與 [Android Jetpack](https://developer.android.com/jetpack) 來開發穩健且容易維護的應用程式，藉由邊緣運算讓音訊不需上傳至雲端即可在裝置上辨識出情緒，是**即時且保有隱私**的語音情緒辨識應用。  
 
 ![](https://i.imgur.com/2IeqQ0y.png)  
 
