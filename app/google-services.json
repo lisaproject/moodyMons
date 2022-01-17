@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "432667584796",
+    "firebase_url": "https://lisa-test-8dee8-default-rtdb.firebaseio.com",
+    "project_id": "lisa-test-8dee8",
+    "storage_bucket": "lisa-test-8dee8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432667584796:android:a895a22bf372a4cdb4b2d9",
+        "android_client_info": {
+          "package_name": "com.example.feelingdiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432667584796-dunmopgn1ba410glqlutv82vasl2sube.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk4dNo8UBW_8_ZD9qleWV0cfrn1RZC25Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432667584796-dunmopgn1ba410glqlutv82vasl2sube.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432667584796:android:24a50f72a1c47ea5b4b2d9",
+        "android_client_info": {
+          "package_name": "com.example.helloworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432667584796-dunmopgn1ba410glqlutv82vasl2sube.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk4dNo8UBW_8_ZD9qleWV0cfrn1RZC25Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432667584796-dunmopgn1ba410glqlutv82vasl2sube.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

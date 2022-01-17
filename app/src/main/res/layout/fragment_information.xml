@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_green">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_if_need_talk"
+        android:paddingStart="33dp"
+        android:paddingTop="15sp"
+        android:text="需要聊一聊嗎？"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="@+id/scrollView2"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="457dp"
+        app:layout_constraintBottom_toBottomOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView2"
+        app:srcCompat="@drawable/ic_info_mons" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="367dp"
+        android:layout_height="466dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_info_dialog"
+        android:paddingLeft="45dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="ScrollViewCount">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:lineSpacingExtra="2dp"
+                android:id="@+id/talk_line1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/talk_line1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/content_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:lineSpacingExtra="2dp"
+                android:id="@+id/talk_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/talk_text1"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/content2_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/talk_line1" />
+
+            <TextView
+                android:lineSpacingExtra="2dp"
+                android:id="@+id/talk_line2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:text="@string/talk_line2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/content_size"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/talk_text1" />
+
+            <TextView
+                android:lineSpacingExtra="2dp"
+                android:id="@+id/talk_text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="@string/talk_text2"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/content2_size"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/talk_line2" />
+
+            <TextView
+                android:lineSpacingExtra="2dp"
+                android:id="@+id/talk_line3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:text="@string/talk_line3"
+                android:textColor="@color/black"
+                android:textSize="@dimen/content_size"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/talk_text2" />
+
+            <TextView
+
+                android:id="@+id/talk_text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/talk_text3"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/content2_size"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/talk_line3" />
+
+            <TextView
+                android:lineSpacingExtra="2dp"
+                android:id="@+id/talk_line4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:text="@string/talk_line4"
+                android:textColor="@color/black"
+                android:textSize="@dimen/content_size"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/talk_text3" />
+
+            <TextView
+                android:lineSpacingExtra="2dp"
+                android:id="@+id/talk_text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="@string/talk_text4"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/content2_size"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/talk_line4" />
+
+            <TextView
+                android:lineSpacingExtra="2dp"
+                android:id="@+id/talk_line5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:text="@string/talk_line5"
+                android:textColor="@color/black"
+                android:textSize="@dimen/content_size"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/talk_text4" />
+
+            <TextView
+                android:lineSpacingExtra="2dp"
+                android:id="@+id/talk_text5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="@string/talk_text5"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/content2_size"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/talk_line5" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

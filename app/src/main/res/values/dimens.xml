@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_wide">16dp</dimen>
+    <dimen name="title_size">25sp</dimen>
+    <dimen name="content_size">20sp</dimen>
+    <dimen name="content2_size">15sp</dimen>
+    <dimen name="recording_title_size">35sp</dimen>
+    <dimen name="sub_title_size">15sp</dimen>
+    <dimen name="make_diary_title_size">17sp</dimen>
+</resources>

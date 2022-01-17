@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">moodyMons</string>
+    <string name="diary_title">看看最近在情緒日記上寫了什麼</string>
+    <string name="face_angry">face_angry</string>
+    <string name="diary1_text1">沒有想到我會對阿明拿走\n最後一包洋芋片那麼生氣</string>
+    <string name="diary1_text2">抽獎也沒那麼重要</string>
+    <string name="diary1_text3">有點想家了...</string>
+    <string name="diary2_text1">表姊寄來喜帖!!</string>
+    <string name="diary2_text2">體育課跟阿華同組耶</string>
+    <string name="page2">page2</string>
+    <string name="talk_title">需要聊聊嗎？</string>
+    <string name="page5">page5</string>
+    <string name="talk_line1"><b>安心專線 1925</b></string>
+    <string name="talk_text1">心理諮詢服務  免付費  24 小時全年無休。</string>
+    <string name="talk_line2"><b>生命線 1995</b></string>
+    <string name="talk_text2">電話輔導  須付費  24 小時全年無休。 </string>
+    <string name="talk_line3"><b>張老師 1980</b></string>
+    <string name="talk_text3">民間團體專線：\n提供情緒困擾、生活適應問題之協助。\n中華電信撥打免費，
+        其他電信以市話計費。\n服務時間：\n星期一～星期六 9:00-21:00\n星期日 9:00-17:00 </string>
+    <string name="talk_line4"><b>老朋友專線 0800-228-585</b></string>
+    <string name="talk_text4">提供長者資源查詢及解決個人心理困擾\n免付費\n服務時間：週一至週五  \n上午 8：30 至 12：00，下午 1 點至 6 點。 </string>
+    <string name="talk_line5"><b>男性關懷專線 0800-013-999</b></string>
+    <string name="talk_text5">傾聽男性來電者訴說心情\n討論其困擾及提供專業法律諮詢與資源轉介\n免付費\n服務時間：每日上午 9 點至晚上 11 點。</string>
+    <string name="month_title">我的情緒動態趨勢</string>
+    <string name="month_title2">情緒動態回顧</string>
+    <string name="month_analysis1">本周你最常紀錄的是\n生氣的情緒動態</string>
+    <string name="month_analysis2">上次最常紀錄生氣的情緒動態\n是在兩個月前</string>
+    <string name="month_analysis3">一個月前你最常紀錄開心的情緒動態\n去年你最常紀錄難過的情緒動態</string>
+    <string name="page4">page4</string>
+    <string name="week_title">過去一周你的情緒動態分佈</string>
+    <string name="week_title2"><b>上周你最常記錄讓你生氣的事\n在情緒動態總共占了42.5%</b></string>
+    <string name="page3">page3</string>
+    <string name="week2_text1">放在門口的傘到底是被誰\n拿走了!!!!</string>
+    <string name="feeling_diary">情緒日記</string>
+    <string name="what_happened">說說發生什麼事了</string>
+    <string name="press_mic">按下麥克風按鈕\n讓情緒日記聽見你的心聲</string>
+    <string name="mic_button">mic button</string>
+    <string name="page_index">page index</string>
+    <string name="confirm">確認</string>
+    <string name="emotionImage">emotionImage</string>
+    <string name="weekly_review">情緒記錄回顧</string>
+</resources>

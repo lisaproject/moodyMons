@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recording_navigation"
+    app:startDestination="@id/signInFragment" >
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.moodymons.account.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signInFragment_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.example.moodymons.viewpager.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" >
+        <action
+            android:id="@+id/action_viewPagerFragment_to_makeDiaryFragment"
+            app:destination="@id/makeDiaryFragment" />
+        <action
+            android:id="@+id/action_viewPagerFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/makeDiaryFragment"
+        android:name="com.example.moodymons.makediary.MakeDiaryFragment"
+        android:label="MakeDiaryFragment" >
+        <action
+            android:id="@+id/action_makeDiaryFragment_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment" />
+        <argument
+            android:name="label"
+            app:argType="string" />
+        <argument
+            android:name="confidenceArr"
+            app:argType="float[]" />
+    </fragment>
+</navigation>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/clMD"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/angry_pink">
+    <TextClock
+        android:timeZone="GMT+0800"
+        android:id="@+id/dateAndTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="28dp"
+        android:format12Hour="yyyyMMdd"
+        android:textColorHint="@color/black"
+        android:textSize="15sp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/imgNote"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.797"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="511dp"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_angry_banner" />
+
+    <ImageView
+        android:id="@+id/imgFace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="145dp"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:src="@drawable/ic_angry_big_face"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif"
+        android:letterSpacing="0.1"
+        android:text="經過語音情緒辨識後\n聽起來你似乎對這件事覺得"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/make_diary_title_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:scaleY="1"
+        android:src="@drawable/ic_angry_note"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="68dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="177dp"
+        android:elevation="10dp"
+        android:fontFamily="sans-serif"
+        android:letterSpacing="0.1"
+        android:text="完成"
+        android:background="@drawable/ic_done_btn"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/make_diary_title_size"
+        app:layout_constraintStart_toStartOf="@+id/imgNote"
+        app:layout_constraintTop_toTopOf="@+id/imgNote" />
+
+    <EditText
+        android:id="@+id/diaryEditText"
+        android:layout_width="256dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/shadow"
+        android:ems="10"
+        android:maxLength="20"
+        android:singleLine="true"
+        android:fontFamily="sans-serif"
+        android:gravity="start|top"
+        android:maxLines="3"
+        android:hint="你是怎麼想的，從這裡開始記錄你的感受。"
+        android:inputType="textMultiLine"
+        android:letterSpacing="0.1"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgNote" />
+
+
+    <Button
+        android:id="@+id/imgChange"
+        android:layout_width="101dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/change_emotion"
+        android:fontFamily="sans-serif"
+        android:letterSpacing="0.1"
+        android:text="切換情緒"
+        app:layout_constraintStart_toStartOf="@+id/imgNote"
+        app:layout_constraintTop_toTopOf="@+id/imgNote" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
