@@ -64,7 +64,7 @@ class ViewPagerFragment : Fragment() {
                     tab.icon = getDrawable(requireContext(),R.drawable.ic_tab_diarylist)
                 }
                 2 -> {
-                    tab.text = "週分析"
+                    tab.text = "周分析"
                     tab.icon = getDrawable(requireContext(),R.drawable.ic_tab_piechart)
                 }
                 3 -> {

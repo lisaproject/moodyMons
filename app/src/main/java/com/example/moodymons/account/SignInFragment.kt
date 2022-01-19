@@ -1,5 +1,6 @@
 package com.example.moodymons.account
 
+import android.annotation.SuppressLint
 import android.app.Activity.RESULT_OK
 import android.graphics.Typeface
 import android.os.Build
@@ -114,12 +115,13 @@ class SignInFragment: Fragment() {
             val v = signInButton.getChildAt(i)
             if (v is TextView) {
                 //v.text = buttonText //setup your text here
-                v.setBackgroundResource(R.drawable.ic_sign_in_button) //setting transparent
+//                v.setBackgroundResource(R.drawable.ic_sign_in_button) //setting transparent
                 // color
                 // that
                 // will hide
                 // google image and white background
-                v.setTextColor(resources.getColor(android.R.color.transparent)) // text color here
+                // v.text = "Sign in with Google"
+                // v.setTextColor(resources.getColor(android.R.color.black)) // text color here
                 v.typeface = Typeface.DEFAULT_BOLD // even typeface
                 return
             }
