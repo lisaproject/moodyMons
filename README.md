@@ -34,12 +34,13 @@ QRCODE：
 ## 使用手冊  
 ### 安裝流程  
 下載並點擊安裝檔進行安裝，完成後即可在手機應用程式中找到 ***moodyMons***，並點選「允許」來同意錄音與存取檔案的權限。  
-  
+![](https://i.imgur.com/tPPtXpu.png)
+![](https://i.imgur.com/ijsrh78.jpg)
 ### 登入與登出  
 登入：按下「使用 Google 帳號登入」以 Google 帳戶來登入，進入 ***moodyMons***。  
 
-![](https://i.imgur.com/tPPtXpu.png)
-![](https://i.imgur.com/ijsrh78.jpg)
+![](https://i.imgur.com/13DnWoh.png)
+
 
 
 登出：按下左上角的「登出」並在彈出式視窗確認登出，回到登入頁面。  
