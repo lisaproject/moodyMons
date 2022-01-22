@@ -114,4 +114,3 @@ QRCODE：
 ## 開始開發  
 
 clone [這份專案](https://github.com/lisaproject/moodyMons.git)，開啟 [Android Studio](https://developer.android.com/studio) 執行專案。   
-[模型架構非公開程式碼](https://drive.google.com/drive/folders/1z6ogABT3rcqFPvOJIZ2mXTxLw39QxZcX?usp=sharing)
