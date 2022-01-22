@@ -17,19 +17,18 @@
 * [專案開發流程](#專案開發流程)  
 * [開發環境需求](#開發環境需求)  
 * [開始開發](#開始開發)  
-
-## 宣傳影片
-
-QRCODE：  
-![](https://i.imgur.com/tDBhPNi.png)
-
-
 ## ***moodyMons*** 執行檔(apk)  
 
 QRCODE：  
 ![](https://i.imgur.com/agAQJH7.png)  
   
 [apk 連結](https://drive.google.com/drive/folders/1DjHTmqfEk49wVjDKvDwENcIQFbs4r1Bi?usp=sharing)  
+## 宣傳影片  
+
+QRCODE：  
+![](https://i.imgur.com/tDBhPNi.png)
+
+[影片連結](https://youtu.be/edo2S2pQgjU)
 
 ## 操作示範影片  
 QRCODE：  
