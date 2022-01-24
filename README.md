@@ -1,6 +1,9 @@
-# ***moodyMons 情緒日記－AI 語音情緒辨識 APP***  
+# ***moodyMons*** 使用說明  
 
-本專案是一款專為想要理解自己心情波動的人所設計之語音情緒辨識 APP。  
+## 簡介  
+你經常覺得心情低落卻不知道自己怎麼了嗎？那麼，快來使用 moodyMons！讓我聽懂你的心~~~  
+
+moodyMons 是一款專為想要理解自己心情波動的人所設計之語音情緒辨識 APP，結合邊緣運算與人工智慧，提供行動裝置語音即時辨識情緒的功能。你只需要對 moodyMons 開口，就能馬上得知當下的情緒，還可瀏覽周分析與月分析圖表，追蹤長期的情緒變化，讓可愛的情緒怪獸陪著你，一起學習與情緒共處吧！  
   ![](https://i.imgur.com/r1x9xqa.png)  
 ## 目錄  
 * [***moodyMons*** 執行檔(apk)](#moodyMons-執行檔apk)  
@@ -14,20 +17,19 @@
     * [查看周分析](#查看周分析)
     * [查看月分析](#查看月分析)
     * [查看諮詢資訊](#查看諮詢資訊)
-* [專案開發流程](#專案開發流程)  
-* [開發環境需求](#開發環境需求)  
-* [開始開發](#開始開發)  
+* [作品開發流程](#作品開發流程)  
+* [環境需求](#環境需求)  
 ## ***moodyMons*** 執行檔(apk)  
 
 QRCODE：  
-![](https://i.imgur.com/agAQJH7.png)  
+![](https://i.imgur.com/E8IlJEb.png)
+
   
-[apk 連結](https://drive.google.com/drive/folders/1DjHTmqfEk49wVjDKvDwENcIQFbs4r1Bi?usp=sharing)  
+[apk 連結](https://drive.google.com/drive/folders/1hCfK-SRJSyV4yFDkaax-4UHaR8P8Tq4n?usp=sharing)  
 ## 宣傳影片  
 
 QRCODE：  
 ![](https://i.imgur.com/tDBhPNi.png)
-
 [影片連結](https://youtu.be/edo2S2pQgjU)
 
 ## 操作示範影片  
@@ -36,7 +38,6 @@ QRCODE：
 
 
 [影片連結](https://youtu.be/PlhWJmkOK-g)  
-
 ## 使用手冊  
 ### 安裝流程  
 下載並點擊安裝檔進行安裝，完成後即可在手機應用程式中找到 ***moodyMons***，並點選「允許」來同意錄音與存取檔案的權限。  
@@ -86,13 +87,13 @@ QRCODE：
 ![](https://i.imgur.com/PsCDRqI.jpg)
 
 
-## 專案開發流程  
-本專案以 [NNIME 語料庫](https://nnime.ee.nthu.edu.tw/) 為主軸，將音訊轉換成梅爾頻譜訓練出中文語音情緒辨識模型，把模型經由 [TensorFlow Lite](https://www.tensorflow.org/lite?hl=zh-tw) 轉換，應用於以使用者為中心開發的 ***moodyMons*** ， 讓模型在手機上運行，同時運用 [Firebase](https://firebase.google.com) 雲端儲存模型的辨識結果、使用者回饋與日記內容以評估模型。  
+## 作品開發流程  
+本作品以 [NNIME 語料庫](https://nnime.ee.nthu.edu.tw/) 為主軸，將音訊轉換成梅爾頻譜訓練出中文語音情緒辨識模型，把模型經由 [TensorFlow Lite](https://www.tensorflow.org/lite?hl=zh-tw) 轉換，應用於以使用者為中心開發的 ***moodyMons*** ， 讓模型在手機上運行，同時運用 [Firebase](https://firebase.google.com) 雲端儲存模型的辨識結果、使用者回饋與日記內容以評估模型。  
 ***moodyMons***  使用 [single-Activity](https://youtu.be/2k8x8V77CrU) 架構與 [Android Jetpack](https://developer.android.com/jetpack) 來開發穩健且容易維護的應用程式，藉由邊緣運算讓音訊不需上傳至雲端即可在裝置上辨識出情緒，是**即時且保有隱私**的語音情緒辨識應用。  
 
 ![](https://i.imgur.com/2IeqQ0y.png)  
 
-## 開發環境需求  
+## 環境需求  
 **1. 相關技術**
 * 語言使用 : Kotlin 1.3.72
 * 開發工具 : Android Studio 4.2.2
@@ -104,13 +105,9 @@ QRCODE：
 
 **3. 硬體需求** 
 
-* 記憶體 100MB 以上
+* 記憶體 400MB 以上
 * 螢幕解析度 1920 x 1080pixels
 * 建議使用 Nexus 5X 取得最佳的畫面體驗
 
 **4. 網路需求** 
 * 手機必須具有穩定傳輸的網路環境
-
-## 開始開發  
-
-clone [這份專案](https://github.com/lisaproject/moodyMons.git)，開啟 [Android Studio](https://developer.android.com/studio) 執行專案。   
