@@ -30,6 +30,7 @@ QRCODE：
 
 QRCODE：  
 ![](https://i.imgur.com/tDBhPNi.png)
+
 [影片連結](https://youtu.be/edo2S2pQgjU)
 
 ## 操作示範影片  
