@@ -68,7 +68,7 @@ class MakeDiaryFragment:  Fragment(){
         binding.btnDone.setOnClickListener {
             database = FirebaseDatabase.getInstance().getReference("Emotions")
             val userID = viewModel.getUID()
-            val date = binding.dateAndTime.text.toString()
+            val date = viewModel.getToday()
             val diary = binding.diaryEditText.text.toString()
             var confidenceList: MutableList<Float>  = mutableListOf()
             for(item in confidenceArr){
